@@ -1,0 +1,321 @@
+*{
+box-sizing: border-box;    
+}
+body{
+    background-color:white ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.AssignmentSolutionforMode2{
+    background-color: grey;
+    border: 2px solid black;
+}
+.navbar{
+    background-color: grey;
+    height: 100%;
+}
+input[name="search"]{
+    width: 80%;
+    border-radius: 50px;
+  }
+.btn{
+    border-radius: 80px;
+    width: 50px;
+  }
+.OurMenu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.chicken{
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+    
+} 
+.chicken h1{
+    background-color: peachpuff;
+    width: 50%;
+    border: 2px solid black;
+    float: right;
+
+}
+.beef{
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+} 
+.beef h1{
+    background-color: rgb(109, 9, 9);
+    width: 50%;
+    border: 2px solid black;
+    float: right;
+    color: white;
+}
+.sushi{
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+    position: relative;
+} 
+.sushi h1{
+    background-color: rgb(240, 212, 212);
+    width: 50%;
+    border: 2px solid black;
+    float: right;
+    color: black;
+    
+} 
+#sushi{
+    display:none ;
+}
+.footer{
+    background-color: grey;
+    border: 2px solid black;
+}
+}
+@media screen and (max-width:992px) {
+    body{
+        background-color:white ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    .AssignmentSolutionforMode2{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .navbar{
+        background-color: grey;
+        height: 100%;
+    }
+    input[name="search"]{
+        width: 80%;
+        border-radius: 50px;
+      }
+    .btn{
+        border-radius: 80px;
+        width: 50px;
+      }
+    .OurMenu{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .chicken{
+        background-color: grey;
+        border: 2px solid black;
+        width: 30%;
+        
+    } 
+    .chicken h1{
+        background-color: peachpuff;
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+    
+    }
+    .beef{
+        background-color: grey;
+        border: 2px solid black;
+        width: 30%;
+    } 
+    .beef h1{
+        background-color: rgb(109, 9, 9);
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+        color: white;
+    }
+    .sushi{
+        background-color: grey;
+        border: 2px solid black;
+        width: 30%;
+        position: relative;
+    } 
+    .sushi h1{
+        background-color: rgb(240, 212, 212);
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+        color: black;
+        
+    } 
+    #sushi{
+        display:none ;
+    }
+   .footer{
+        background-color: grey;
+        border: 2px solid black;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    body{
+        background-color:white ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    .AssignmentSolutionforMode2{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .navbar{
+        background-color: grey;
+        height: 100%;
+    }
+    input[name="search"]{
+        width: 80%;
+        border-radius: 50px;
+      }
+    .btn{
+        border-radius: 80px;
+        width: 50px;
+      }
+    .OurMenu{
+      display: flex;
+      justify-content: space-around;  
+    }
+    .chicken{
+        background-color: grey;
+        border: 2px solid black;
+        width: 50%;
+        height: 50%;
+    } 
+    .chicken h1{
+        background-color: peachpuff;
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+    
+    }
+    .beef{
+        background-color: grey;
+        border: 2px solid black;
+        width: 50%;
+        height: 50%;
+        margin-left: 10px;
+    } 
+    .beef h1{
+        background-color: rgb(109, 9, 9);
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+        color: white;
+    }
+   .sushi{
+        background-color: grey;
+        border: 2px solid black;
+        width: 40%;
+        color: black;
+        display: none;
+    } 
+    .sushi h1{
+        background-color: peachpuff;
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+        color: black;
+    }
+    #sushi{
+        background-color: grey;
+        border: 2px solid black ;
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin-top: 20px;
+    }
+    #sushi h1{
+        background-color: peachpuff;
+        width: 12%;
+        border: 2px solid black;
+        float: right;
+        color: black;
+}
+
+
+@media screen and (max-width:767px) {
+    body{
+        background-color:white ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    .AssignmentSolutionforMode2{
+        background-color: grey;
+        border: 2px solid black;
+    }
+    .navbar{
+        background-color: grey;
+        height: 100%;
+    }
+    input[name="search"]{
+        width: 80%;
+        border-radius: 50px;
+      }
+    .btn{
+        border-radius: 80px;
+        width: 50px;
+      }
+    .OurMenu{
+       display: block; 
+       width: 100%;
+       align-content: center;
+       height: 30%;
+    }
+    .chicken{
+        background-color: grey;
+        border: 2px solid black;
+        width: 100%;
+        
+    } 
+    .chicken h1{
+        background-color: peachpuff;
+        width: 16%;
+        border: 2px solid black;
+        float: right;
+    
+    }
+    .beef{
+        background-color: grey;
+        border: 2px solid black;
+        width: 100%;
+        margin-top: 20px;
+    } 
+    .beef h1{
+        background-color: rgb(109, 9, 9);
+        width: 10%;
+        border: 2px solid black;
+        float: right;
+        color: white;
+    }
+    .sushi{
+        background-color: grey;
+        border: 2px solid black;
+        width: 40%;
+        color: black;
+        display: none;
+    } 
+    .sushi h1{
+        background-color: peachpuff;
+        width: 50%;
+        border: 2px solid black;
+        float: right;
+        color: black;
+    }
+    #sushi{
+        background-color: grey;
+        border: 2px solid black ;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #sushi h1{
+        background-color: peachpuff;
+        width: 12%;
+        border: 2px solid black;
+        float: right;
+        color: black;
+    }
+}
+
+   
